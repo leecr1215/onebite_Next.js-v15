@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.recommandMovies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.allMovies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}

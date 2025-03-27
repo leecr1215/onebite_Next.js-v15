@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={style.header}>
-      <Link href={"/"}>ONE BITE CINEMA</Link>
+      <Link href={"/"}>ONEBITE CINEMA</Link>
     </header>
   );
 }
