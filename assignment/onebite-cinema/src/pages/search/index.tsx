@@ -1,4 +1,6 @@
+import Searchbar from "@/components/searchbar-layout";
 import { useRouter } from "next/router";
+import { ReactNode } from "react";
 
 export default function Page() {
   const router = useRouter();
@@ -7,3 +9,7 @@ export default function Page() {
 
   return <h1>검색 결과 : {q}</h1>;
 }
+
+Page.getLayout = (page: ReactNode) => {
+  return <Searchbar>{page}</Searchbar>;
+};
